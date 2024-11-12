@@ -1,21 +1,21 @@
-/* nav.css */
+
 .nav {
   display: flex;
-  justify-content: space-between; /* Alinea los elementos a los extremos */
-  align-items: center; /* Centra los elementos verticalmente */
-  padding: 10px 20px; /* Espaciado interno */
-  background-color: #2F303A; /* Color de fondo del nav (puedes cambiarlo) */
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #2F303A; 
   color: white;
   .nav-left {
     display: flex;
     align-items: center;
     .logo {
-      width: 40px; /* Ajusta el tamaño del logo */
-      margin-right: 10px; /* Espacio entre el logo y el texto */
+      width: 40px; 
+      margin-right: 10px;
     }
     
     .brand-name {
-      font-size: 24px; /* Tamaño del texto "soundwave" */
+      font-size: 24px; 
       font-weight: bold;
     }
     
