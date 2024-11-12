@@ -14,7 +14,7 @@ const FeelTheMusicLayout = () => {
                 <img src="src/assets/landing-page-girl.png" className="girl" />
                 </div>
                 <div className="right-container">
-                    <h1>Feel the Music</h1>
+                    <h1 class="h1">Feel the Music</h1>
                     <p class="subheadline">Stream over 20 thousand songs with one click</p>
                     <JoinButton />
                 </div>
