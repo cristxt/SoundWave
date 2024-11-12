@@ -1,0 +1,44 @@
+
+.nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #2F303A; 
+  color: white;
+  .nav-left {
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 40px; 
+      margin-right: 10px;
+    }
+    
+    .brand-name {
+      font-size: 24px; 
+      font-weight: bold;
+    }
+    
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px; 
+      font-size: 18px;
+    }
+    
+    .nav-link:hover {
+      text-decoration: underline; 
+    }
+  }
+}
+
+
+
+
+
+
+
