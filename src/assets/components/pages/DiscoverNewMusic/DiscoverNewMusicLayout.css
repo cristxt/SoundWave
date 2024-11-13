@@ -5,7 +5,7 @@
     align-items: center;
     padding: 20px;
 
-    .container {
+    .container2 {
         background-color: #2F303A;
         height: 100vh;
         width: 100vw;
@@ -13,38 +13,59 @@
         justify-content: space-between;
         gap: 20px; 
         
-        .left-container, .right-container {
+        .left-container2, .right-container2 {
             flex: 1;
             padding: 20px;
             box-sizing: border-box;
         }
-        .left-container {
-            .h1 {
+        .left-container2 {
+            .h12 {
                 margin-top: 300px;
                 color:white;
             }
             .icons{
-                padding: 1.2em 2.5em;  
-                width: auto;            
-                height: 3.5em;   
+                display: flex;             
+                ustify-content: space-around; 
+                gap: 10px;   
+                display: flex;
+  
+}
+                .primer-cuadrado .segundo-cuadrado .tercer-cuadrado {
+                    display: flex;
+                    flex-direction: column;      /* Organiza la imagen y el texto verticalmente */
+                    align-items: center;         /* Centra los elementos dentro del cuadrado */
+                    justify-content: center;     /* Alinea el contenido verticalmente al centro */
+                    background-color: #444;      /* Fondo oscuro (puedes cambiarlo) */
+                    padding: 1rem;               /* Espacio interno (usando rem para mayor flexibilidad) */
+                    border-radius: 1rem;         /* Bordes redondeados con unidad rem */
+                    width: 20vw;                 /* Ancho relativo al ancho de la pantalla (20% del viewport) */
+                    height: 25vh;                /* Alto relativo al alto de la pantalla (25% del viewport) */
+                    .p {
+                        color:white
+                    }
+
+                }
+                
+               
             }
-            .subheadline {
+            .subheadline2 {
                 color:white;
             }
           
         }
         
-        .right-container {
+        .right-container2 {
             .music {
                 padding: 1rem; 
                 position:fixed;
-                bottom: 2vh; 
-                right: 2vw;
+                bottom: 5vh; 
+                right: 5vw;
+                transform: translate(50%, 0);
 
             }
         }
     }
-}
+
 
 
 @media (max-width: 768px) {
