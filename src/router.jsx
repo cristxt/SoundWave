@@ -10,8 +10,8 @@ export const router = createBrowserRouter([
         path: "/discover-new-music",
         element: <DiscoverNewMusicLayout/>
     },
-    {
+    /*{
         path: "/unknow",  
         element: </>
-    },
+    },*/
 ]);
