@@ -1,0 +1,119 @@
+.DiscoverNewMusic {
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    .container2 {
+        background-color: #2F303A;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; 
+        
+        .left-container2, .right-container2 {
+            flex: 1;
+            padding: 20px;
+            padding-left: 2rem;
+            box-sizing: border-box;
+        }
+        .left-container2 {
+            .h12 {
+                margin-top: 10rem;
+                margin-left:12rem;
+                color:white;
+                font-size: 3rem;
+            }
+            .icons{
+                display: flex;             
+                justify-content: space-around; 
+                display: flex;
+                margin-left:12rem;
+                .primer-cuadrado {
+                    display: flex;
+                    flex-direction: column;      
+                    align-items: center;         
+                    justify-content: center;     
+                    background-color: #202027;      
+                    padding: 1rem;  
+                    width: 5vw;                 
+                    height: 5vw;                
+    
+                }
+                .primer-cuadrado p {
+                    color: white;
+                }
+                .segundo-cuadrado {
+                    display: flex;
+                    flex-direction: column;      
+                    align-items: center;         
+                    justify-content: center;     
+                    background-color: #202027;      
+                    padding: 1rem;  
+                    width: 5vw;                 
+                    height: 5vw;                
+
+                }
+                .segundo-cuadrado p {
+                    color: white;
+                }
+
+                .tercer-cuadrado {
+                    display: flex;
+                    flex-direction: column;      
+                    align-items: center;         
+                    justify-content: center;     
+                    background-color: #202027;      
+                    padding: 1rem;  
+                    width: 5vw;                 
+                    height: 5vw;                
+              
+                }
+                .tercer-cuadrado p {
+                    color: white;
+                }
+            }   
+               
+        }
+            .subheadline2 {
+                color:white;
+                margin-left:12rem;
+                font-size: 1.5rem;
+                overflow: visible;
+                white-space: nowrap;
+
+            }
+          
+    }
+        
+        .right-container2 {
+            .music {
+                padding: 1rem; 
+                top:20%;
+                left:60%;
+                bottom:100%;
+                position:fixed;
+
+            }
+        }
+    }
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-container, .right-container {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .right-container {
+        margin-bottom: 0;
+    }
+}
