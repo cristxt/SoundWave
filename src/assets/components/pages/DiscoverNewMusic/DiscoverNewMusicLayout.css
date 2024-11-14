@@ -3,6 +3,7 @@
     position: absolute;
 
     .container2 {
+        
         background-color: #2F303A;
         height: 100vh;
         width: 100vw;
@@ -12,7 +13,6 @@
         
         .left-container2, .right-container2 {
             flex: 1;
-            padding: 20px;
             padding-left: 2rem;
             box-sizing: border-box;
         }
@@ -27,7 +27,7 @@
                 display: flex;             
                 justify-content: space-around; 
                 display: flex;
-                margin-left:12rem;
+                gap: 0.1rem;
                 .primer-cuadrado {
                     display: flex;
                     flex-direction: column;      
@@ -36,8 +36,12 @@
                     background-color: #202027;      
                     padding: 1rem;  
                     width: 5vw;                 
-                    height: 5vw;                
-    
+                    height: 5vw;
+                    margin-left:12rem;
+                    .icon{
+                        padding-top: 1rem;
+                    }
+               
                 }
                 .primer-cuadrado p {
                     color: white;
@@ -50,7 +54,10 @@
                     background-color: #202027;      
                     padding: 1rem;  
                     width: 5vw;                 
-                    height: 5vw;                
+                    height: 5vw;  
+                    .icon{
+                        padding-top: 1rem;
+                    }      
 
                 }
                 .segundo-cuadrado p {
@@ -65,7 +72,10 @@
                     background-color: #202027;      
                     padding: 1rem;  
                     width: 5vw;                 
-                    height: 5vw;                
+                    height: 5vw;  
+                    .icon{
+                        padding-top: 1rem;
+                    }              
               
                 }
                 .tercer-cuadrado p {
@@ -76,7 +86,7 @@
         }
             .subheadline2 {
                 color:white;
-                margin-left:12rem;
+                margin-left:7rem;
                 font-size: 1.5rem;
                 overflow: visible;
                 white-space: nowrap;
@@ -86,12 +96,13 @@
     }
         
         .right-container2 {
+            position: relative;
             .music {
-                padding: 1rem; 
-                top:20%;
-                left:60%;
-                bottom:100%;
-
+                position: absolute; 
+                top: 10%; 
+                right: 10%; 
+                width: 30vw; 
+                height: 30vw; 
             }
         }
     }

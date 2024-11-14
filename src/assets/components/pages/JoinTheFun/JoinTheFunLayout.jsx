@@ -2,6 +2,7 @@ import React from 'react';
 import '../../pages/JoinTheFun/JoinTheFunLayout.css';
 import Nav from '../../Molecules/nav';
 import Form from '../../Molecules/form';
+import Footer from '../../Molecules/footer';
 
 const JoinTheFunLayout = () => {
     return (
@@ -17,6 +18,7 @@ const JoinTheFunLayout = () => {
             <Form/> 
             </div>
             </div>
+            <Footer/>
         </div>
     );
 }

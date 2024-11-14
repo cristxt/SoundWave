@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-evenly;  
   align-items: center;
-  padding: 10px 20px;
+  padding: 50px 20px;
   background-color: #2F303A;
   color: white;
   .nav-left, .nav-right {
@@ -31,9 +31,7 @@
     font-size: 18px;
   }
   
-  .nav-link:hover {
-    text-decoration: underline;
-  }
+ 
 }
 
 

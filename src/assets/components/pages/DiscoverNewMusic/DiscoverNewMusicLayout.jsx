@@ -2,6 +2,7 @@ import React from 'react';
 import '../../pages/DiscoverNewMusic/DiscoverNewMusicLayout';
 import Nav from '../../Molecules/nav';
 import '../DiscoverNewMusic/DiscoverNewMusicLayout.css';
+import Footer from '../../Molecules/footer';
 
 
 const DiscoverNewMusicLayout = () => {
@@ -32,6 +33,7 @@ const DiscoverNewMusicLayout = () => {
                     <img src="src/assets/covers.jpg" className="music" />
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
