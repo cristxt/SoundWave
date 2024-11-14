@@ -1,8 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-
-import DiscoverNewMusicLayout from "../src/assets/components/pages/DiscoverNewMusic/DiscoverNewMusicLayout";
-
-
+import FeelTheMusicLayout from "../../SoundWave/src/assets/components/pages/FeelTheMusic/FeelTheMusicLayout";
+import DiscoverNewMusicLayout from "./assets/components/pages/DiscoverNewMusic/DiscoverNewMusicLayout";
 export const router = createBrowserRouter([
     /*{
         path: "/feel-the-music",
@@ -17,3 +15,4 @@ export const router = createBrowserRouter([
         element: <JoinTheFunLayoutLayout/>
     }*/
 ]);
+
