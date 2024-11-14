@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className="nav">
             <div className="nav-left">
-                <img src="logo.png" alt="Logo" className="logo" />
+                <img src="src/assets/logo.png" alt="Logo" className="logo" />
                 <span className="brand-name">soundwave</span>
             </div>
             <div className="nav-right">
@@ -17,4 +17,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
