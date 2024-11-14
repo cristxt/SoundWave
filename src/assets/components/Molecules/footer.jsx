@@ -9,14 +9,11 @@ const Footer = () => {
         <a href="#" className="footer-link">Contact</a>
       </div>
       <div className="footer-right">
-        <a href="#" className="social-link">
-          <img src="src/assets/twitter.svg" alt="Twitter" className="social-icon" />
+        <a href="#" className="social-media">
+          <img src="src/assets/twitter.svg" className="social-icon" />
           <span>Twitter</span>
         </a>
-        <a href="#" className="social-link">
-          <img src="src/assets/twitter.svg" alt="Facebook" className="social-icon" />
-          <span>Facebook</span>
-        </a>
+       
       </div>
     </footer>
   );
