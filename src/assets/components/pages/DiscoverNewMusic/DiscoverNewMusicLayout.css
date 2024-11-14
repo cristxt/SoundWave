@@ -1,9 +1,6 @@
 .DiscoverNewMusic {
     background-color: #2F303A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    position: absolute;
 
     .container2 {
         background-color: #2F303A;
@@ -94,26 +91,9 @@
                 top:20%;
                 left:60%;
                 bottom:100%;
-                position:fixed;
 
             }
         }
     }
 
 
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left-container, .right-container {
-        width: 100%;
-        margin-bottom: 20px; 
-    }
-
-    .right-container {
-        margin-bottom: 0;
-    }
-}

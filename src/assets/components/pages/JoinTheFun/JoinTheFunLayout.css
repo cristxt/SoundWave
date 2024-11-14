@@ -1,8 +1,6 @@
 .join-the-fun {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    background-color: #2F303A;
+    position: absolute;
 
     .container3 {
         background-color: #2F303A;
@@ -43,7 +41,7 @@
                 margin-left: 25rem;
                 font-size: 3rem;
                 .color {
-                    color:#bc3a80;;  /* Cambia la palabra "fun." a rosa */
+                    color:#bc3a80;;  
                 }
             }
         }
@@ -60,19 +58,3 @@
     }
 }
 
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left-container, .right-container {
-        width: 100%;
-        margin-bottom: 20px; 
-    }
-
-    .right-container {
-        margin-bottom: 0;
-    }
-}
