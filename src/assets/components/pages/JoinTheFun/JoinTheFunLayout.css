@@ -1,17 +1,17 @@
-.feel-the-music {
+.join-the-fun {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 
-    .container {
+    .container3 {
         background-color: #2F303A;
         height: 100vh;
         width: 100vw;
         display: flex;
         justify-content: space-between;
         gap: 20px; 
-        .circle1 {
+        .circle3 {
             width: 30vw; 
             height: 30vw;
             background-color: #bc3a801a;
@@ -20,7 +20,7 @@
             top: 40%;
             left: 1%;
         }
-        .circle2 {
+        .circle4 {
             width: 30vw; 
             height: 30vw;
             background-color: #3457b21a;
@@ -31,29 +31,20 @@
             top: 20%;
             left: 35%;
         }
-        .left-container, .right-container {
+        .left-container3, .right-container3 {
             flex: 1;
             padding: 20px;
             box-sizing: border-box;
         }
-        .left-container {
-            .girl {
-                padding-left: 30%;
-                position:fixed;
-                bottom:0;
-                right:50%;
-
-            }
-        }
-        
-        .right-container {
-            .h1 {
+        .left-container3 {
+            .h13 {
                 margin-top: 300px;
                 color:white;
             }
-            .subheadline {
-                color:white;
-            }
+        }
+        
+        .right-container3 {
+          
             .join-button{
                 padding: 1.2em 2.5em;  
                 width: auto;            
