@@ -2,31 +2,31 @@
     background-color: #202027;
     margin-top:10rem;
     padding:1rem;
-    width: 20rem;
-    height: 15rem;
+    width: 22rem;
+    height: 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     label {
         margin-bottom: 5px;
-        font-size: 14px;
+        font-size: 20px;
+        font-weight: 700;
         color: white;
         display: flex;
         flex-direction: column;
-        align-items: center;
-
+        
     }
     input {
+        width: 18rem;
+        height: 2rem;
         margin-bottom: 5px;
         font-size: 14px;
-        color: #202027;  
         background-color: #202027;
-        border-color: white;
+        border-color: #2E3852;
+        border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
-
     }
       
   }

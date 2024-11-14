@@ -12,24 +12,24 @@
         justify-content: space-between;
         gap: 20px; 
         .circle3 {
-            width: 30vw; 
-            height: 30vw;
+            width: 35vw; 
+            height: 35vw;
             background-color: #bc3a801a;
             border-radius: 100%; 
             position: absolute; 
             top: 40%;
-            left: 1%;
+            left: -7%;
         }
         .circle4 {
-            width: 30vw; 
-            height: 30vw;
+            width: 35vw; 
+            height: 35vw;
             background-color: #3457b21a;
             border-radius: 100%; 
             position: absolute; 
             top: 20vh;
             right: 20vw;
-            top: 20%;
-            left: 35%;
+            top: -10%;
+            left: 25%;
         }
         .left-container3, .right-container3 {
             flex: 1;
@@ -40,6 +40,11 @@
             .h13 {
                 margin-top: 300px;
                 color:white;
+                margin-left: 25rem;
+                font-size: 3rem;
+                .color {
+                    color:#bc3a80;;  /* Cambia la palabra "fun." a rosa */
+                }
             }
         }
         
@@ -48,7 +53,8 @@
             .join-button{
                 padding: 1.2em 2.5em;  
                 width: auto;            
-                height: 3.5em;   
+                height: 3.5em;  
+                width: 20rem; 
             }
         }
     }
